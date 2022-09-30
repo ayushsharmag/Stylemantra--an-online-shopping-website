@@ -159,7 +159,7 @@ small{
     transition: transform 0.5s;
 }
 .test .col-3 img{
-    width:50px;
+    width:40px;
     margin-top:20px;
     border-radius:50%;
 }
@@ -299,6 +299,41 @@ ul{
         flex-basis:100%;
     }
 }
+/*------------------all products page---------*/
 
+.row-2{
+    justify-content:space-between;
+    margin:100px auto 50px;
+}
+select{
+    border:1px solid #ffd6d6;
+    padding:5px;
+}
+select{
+    border:1px solid #ff523b;
+    padding:5px;
+}
+select:focus{
+    outline:none;
+}
+.page-btn{
+    margin: 0 auto 80px;
 
-
+}
+.page-btn span{
+    display:inline-block;
+    border:1px solid #563434;
+    margin-left:10px;
+    width:40px;
+    height:40px;
+    text-align:center;
+    line-height:40px;
+    cursor:pointer;
+}
+.page-btn span:hover{
+    background:#ff523b;
+    color:#fff;
+}
+.id{
+    background: radial-gradient(rgb(255, 255, 255),#9f88ae);
+}
