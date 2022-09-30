@@ -158,8 +158,13 @@ small{
     cursor: pointer;
     transition: transform 0.5s;
 }
+img{
+    /* width: 100%; */
+}
 .test .col-3 img{
     width:40px;
+    height: 40px;
+    object-fit: cover;
     margin-top:20px;
     border-radius:50%;
 }
