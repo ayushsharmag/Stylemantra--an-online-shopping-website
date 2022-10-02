@@ -303,6 +303,16 @@ ul{
     .col-2,.col-3,.col-4{
         flex-basis:100%;
     }
+    .single .row{
+        text-align: left;
+    }
+    .single .col-2{
+        padding:20px;
+    }
+    .single h1{
+        font-size:26px;
+        line-height: 22px;
+    }
 }
 /*------------------all products page---------*/
 
@@ -341,4 +351,48 @@ select:focus{
 }
 .id{
     background: radial-gradient(rgb(255, 255, 255),#9f88ae);
+}
+/* --------single product----- */
+.single{
+    margin-top: 70px;
+
+}
+.single .col-2 img{
+    padding:0;
+}
+.single .col-2{
+    padding:20px;
+}
+.single h4{
+    margin:20px 0;
+    font-size:22px ;
+    font-weight: bold;
+}
+.single select{
+    display:block;
+    padding:10px;
+    margin-top: 20px;
+}
+.single input{
+    width: 50px;
+    height: 40px;
+    padding-left: 10px;
+    font-size:20px ;
+    margin-right: 10px;
+    border: 1px solid #ff523b;
+}
+input:focus{
+    outline:none;
+}
+.single .fa{
+    color:#ff523b;
+    margin-left:10px;
+}
+.small-img-row{
+    display:flex;
+    justify-content: space-between;
+}
+.small-img-col{
+    flex-basis:24%;
+    cursor:pointer;
 }
