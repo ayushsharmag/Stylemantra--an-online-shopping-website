@@ -67,7 +67,7 @@ p{
     transition:background;
 }
 .header{
-    background: radial-gradient(#fff,#f69178);
+    background: radial-gradient(#fff,#f5967e);
 
 }
 .header .row{
@@ -86,6 +86,10 @@ p{
 }
 .col-3 img{
     width:100%;
+}
+.color{
+    background: rgb(255, 239, 239);
+
 }
 .small{
     max-width:1080px;
@@ -137,7 +141,7 @@ h4{
     transform: translatey(-5px);
 }
 .offer{
-    background: rgb(244, 239, 239);
+    background: rgba(241, 212, 189, 0.898);
     margin-top: 10px;
     padding :30px 0;
 
