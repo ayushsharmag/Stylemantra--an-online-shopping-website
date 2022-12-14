@@ -2,8 +2,7 @@ var cacheAll = false;
 var CACHE_NAME = 'webapk-cache';
 var urlsToCache = [
 	'/index.html',
-	'/wp-content/uploads/2020/08/cropped-SC_Logo-192x192.png',
-	'/wp-content/uploads/2020/08/Supercoders-2x1_Transparent1.png',
+	'/images/mantra2.png',
 ];
 var urlsNotToCache = [
 ];
