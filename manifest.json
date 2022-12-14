@@ -1,0 +1,26 @@
+{
+	"author": "Stylemantra",
+	"name": "Stylemantra",
+	"short_name": "Stylemantra",
+	"description": " Stylemantra - Stylemantra",
+	"orientation": "portrait",
+	"start_url": "/index.html",
+	"scope": "/",
+	"display": "standalone",
+	"background_color": "grey",
+	"theme_color": "#238ee0",
+	"icons": [
+		{
+			"src": "/images/mantra2",
+			"sizes": "48x48 72x72 96x96 128x128 192x192 256x256 512x512",
+			"type": "image/png"
+		}
+	],
+	"manifest_version": 3,
+	"version": "0.2",
+	"applications": {
+		"gecko": {
+			"id": "sashu13669@gmail.com"
+		}
+	}
+}
